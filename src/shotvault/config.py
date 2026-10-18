@@ -184,7 +184,7 @@ def load_config(explicit: Path | None = None) -> Config:
 
 
 CONFIG_TEMPLATE = """\
-# shotvault configuration — https://github.com/mateusememe/text.search.engine
+# shotvault configuration — https://github.com/mateusememe/shotvault
 
 vault = "{vault}"          # your Obsidian vault
 folder = "Screenshots"     # shotvault only writes inside this folder

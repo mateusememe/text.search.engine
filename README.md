@@ -69,7 +69,7 @@ brew install ollama && ollama pull qwen2.5vl:7b && ollama pull bge-m3
 #   plus an embedding model, then run `lms server start`
 
 # 2. install shotvault
-git clone https://github.com/mateusememe/text.search.engine && cd text.search.engine
+git clone https://github.com/mateusememe/shotvault && cd shotvault
 uv tool install --editable ".[all]"        # or: python3 -m venv .venv && .venv/bin/pip install -e ".[all]"
 
 # 3. point it at your vault, then check everything
